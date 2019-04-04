@@ -1,0 +1,20 @@
+from turtle import *
+up()
+goto(0,-350)
+down()
+pencolor("skyblue")
+fillcolor("skyblue")
+begin_fill()
+circle(350)
+end_fill()
+
+up()
+goto(0,-150)
+down()
+pencolor("darkblue")
+fillcolor("darkblue")
+begin_fill()
+circle(150)
+end_fill()
+
+input()
