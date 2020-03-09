@@ -19,15 +19,6 @@ This repository contains the following files-
 4. `photo_1.jpg` - Test image number 1 to test the classifier
 5. `photo_2.jpg` - Test image numbre 2 to test the classifier
 
-## Usage 
-
-* Clone the repository - 
-```bash
-cd 
-git clone https://github.com/bikz05/digit-recognition.git
-cd digit-recognition
-```
-* The next step is to train the classifier. To do so run the script `generateClassifier.py`. It will produce the classifier named `digits_cls.pkl`. 
 
 **NOTE** - *I have already created the `digits_cls.pkl`, so this step is not necessary.*
 ```python
@@ -42,15 +33,3 @@ ex -
 python performRecognition.py -c digits_cls.pkl -i photo_1.jpg
 ```
 
-## Results
-
-### Sample Image 1
-![Result Number 1](http://hanzratech.in/figures/digit-reco-1-out.png)
-### Sample Image 2
-![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
-
-## TODO
-
-* Add a CNN Based approach
-* Reject bounding boxes lesser than some area
-* Look into user errors
